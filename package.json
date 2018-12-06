@@ -1,0 +1,22 @@
+{
+  "name": "lyfta",
+  "version": "1.0.0",
+  "description": "A weightlifting meet management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Wood105/Lyfta.git"
+  },
+  "keywords": [
+    "weightlifting"
+  ],
+  "author": "JB Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Wood105/Lyfta/issues"
+  },
+  "homepage": "https://github.com/J-Wood105/Lyfta#readme"
+}
