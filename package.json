@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/J-Wood105/Lyfta/issues"
   },
-  "homepage": "https://github.com/J-Wood105/Lyfta#readme"
+  "homepage": "https://github.com/J-Wood105/Lyfta#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0"
+  }
 }
