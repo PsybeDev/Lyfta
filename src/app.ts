@@ -5,7 +5,14 @@ import mongo from 'connect-mongo';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import bluebird from 'bluebird';
-import { MONGODB_URI, SESSION_SECRET } from "./util/secrete";
+import { MONGODB_URI, SESSION_SECRET } from "./utils/secrete";
+// for graphQL
+import { ApolloServer } from 'apollo-server-express';
+import depthLimit from 'graphql-depth-limit';
+import { createServer } from 'http';
+import compression from 'compression';
+import cors from 'cors';
+import schema from './schema';
 
 const MongoStore = mongo(session);
 
@@ -28,7 +35,7 @@ mongoose.connect(mongoUrl, {useMongoClient: true}).then(
 	// process.exit();
 });
 
-// espress configuration
+// express configuration
 app.set('port', process.env.port || 3000);
 app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'ejs');
