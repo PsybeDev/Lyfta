@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/J-Wood105/Lyfta#readme",
   "dependencies": {
-    "apollo-server-express": "^2.8.1",
+    "apollo-server-express": "^2.14.2",
     "bluebird": "^3.5.5",
     "compression": "^1.7.4",
     "connect-mongo": "^2.0.3",
