@@ -34,7 +34,7 @@
     "express-session": "^1.16.2",
     "graphql": "^14.4.2",
     "http": "0.0.0",
-    "mongoose": "^5.6.9",
+    "mongoose": "^5.7.5",
     "ncp": "^2.0.0"
   },
   "devDependencies": {
